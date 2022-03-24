@@ -20,7 +20,7 @@
 
 .links {
     display: inherit;
-    gap: 1.5em;
+    gap: 5em;
     list-style: none;
     cursor: pointer;
     font-family: 'Inconsolata', monospace;
@@ -171,7 +171,7 @@ main {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid black;
-    margin: 6% 6% 4% 3%;
+    margin: 6% 6% 4% 2%;
 }
 
 .footer-container div {
@@ -182,6 +182,7 @@ main {
     list-style: none;
     font-family: 'Inconsolata', monospace;
     font-weight: bold;
+    width: 150px;
 }
 
 .footer-container h1 {
@@ -193,8 +194,18 @@ main {
 
 h4 {
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'Inconsolata', monospace;
+    margin-right: 7%;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
+
+.socials a i {
+    width: 30px;
 }
 
 

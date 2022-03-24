@@ -13,9 +13,9 @@
     justify-content: space-between;
     align-content: center;
     font-weight: bolder;
-    margin-left: 4%;
-    padding: 20px;
+    padding: 25px;
     align-content: center;
+    align-items: center;
 }
 
 .links {
@@ -24,6 +24,7 @@
     list-style: none;
     cursor: pointer;
     font-family: 'Inconsolata', monospace;
+    align-items: center;
 }
 
 h3 {
@@ -37,13 +38,12 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin: 5em 4em 0em 4em;
+    margin: 5%;
 }
 
 .text {
-    width: 420px;
+    width: 50%;
     margin-top: 2%;
-    /* color: white; */
     line-height: 1.3;
 }
 
@@ -58,6 +58,7 @@ main {
 }
 
 .text p {
+    width: 70%;
     font-size: 1.03em;
     line-height: 1.4;
     margin-top: 6%;
@@ -66,9 +67,9 @@ main {
 
 .landingpage-button {
     margin-top: 10%;
-    width: 250px;
+    width: 220px;
     padding: 15px;
-    background-color: #7dac5e;
+    background-color: #73bd41;
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -84,7 +85,7 @@ main {
 }
 
 .blog-image img {
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .blog-image img:hover {
@@ -119,7 +120,7 @@ main {
 
 .d-v {
     display: flex;
-    gap: 8.6em;
+    gap: 9.8em;
     margin-top: 0.5em;
 }
 
@@ -140,7 +141,7 @@ main {
     width: 170px;
     padding: 9px;
     color: white;
-    background-color: #7dac5e;
+    background-color: #73bd41;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
@@ -171,7 +172,7 @@ main {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid black;
-    margin: 6% 6% 4% 2%;
+    margin: 6% 5% 4% 2%;
 }
 
 .footer-container div {
@@ -182,21 +183,19 @@ main {
     list-style: none;
     font-family: 'Inconsolata', monospace;
     font-weight: bold;
-    width: 150px;
 }
 
 .footer-container h1 {
     font-family: 'Kaushan Script', cursive;
     font-weight: normal;
     font-size: 25px;
-    margin-top: 7%;
+    margin-top: 8%;
 }
 
 h4 {
     text-align: center;
     font-size: 13px;
     font-family: 'Inconsolata', monospace;
-    margin-right: 7%;
 }
 
 .socials a {
@@ -206,7 +205,6 @@ h4 {
 
 .socials a i {
     width: 30px;
-    color: black;
 }
 
 
@@ -220,23 +218,50 @@ h4 {
         padding: 0;
         overflow-x: hidden;
     }
+    .landing-image img {
+        margin-top: 7%;
+    }
+    .text h1 {
+        font-size: 2.52em;
+    }
+    .text p {
+        width: 100%;
+    }
     .blog {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        cursor: pointer;
+        margin-top: 3%;
+        --gap: 35px;
+        --num-cols: 2;
+        box-sizing: border-box;
+        padding: var(--gap);
+        gap: var(--gap);
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        margin-left: 4%;
     }
     .blog-image img {
-        width: 655px;
+        width: 250px;
+    }
+    .d-v {
+        gap: 7em;
+        margin-top: 0.7em;
     }
     .recipe {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        margin-top: 3%;
+        --gap: 35px;
+        --num-cols: 2;
+        box-sizing: border-box;
+        padding: var(--gap);
+        gap: var(--gap);
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        margin-left: 4%;
     }
     .menu {
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-        font-weight: bolder;
-        padding: 20px 0px 0px 0px;
+        padding: 20px;
+    }
+    .links {
+        gap: 3em;
     }
 }
 
@@ -248,29 +273,54 @@ h4 {
         padding: 0;
         overflow-x: hidden;
     }
+    .landing-image img {
+        margin-top: 7%;
+    }
+    .text h1 {
+        font-size: 2.4em;
+    }
+    .text p {
+        width: 100%;
+    }
     .blog {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        cursor: pointer;
+        margin-top: 3%;
+        --gap: 35px;
+        --num-cols: 2;
+        box-sizing: border-box;
+        padding: var(--gap);
+        gap: var(--gap);
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        margin-left: 4%;
     }
     .blog-image img {
-        width: 655px;
+        width: 250px;
+    }
+    .d-v {
+        gap: 7em;
+        margin-top: 0.7em;
     }
     .recipe {
-        display: flex;
-        flex-direction: column;
-    }
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        display: grid;
+        margin-top: 3%;
+        --gap: 35px;
+        --num-cols: 2;
+        box-sizing: border-box;
+        padding: var(--gap);
+        gap: var(--gap);
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        margin-left: 4%;
     }
     .menu {
-        display: flex;
-        justify-content: space-between;
+        padding: 20px;
+    }
+    .links {
+        gap: 3em;
+    }
+    .menu {
         align-content: center;
-        font-weight: bolder;
-        padding: 20px 0px 0px 0px;
-        align-content: center;
+        padding: 20px;
     }
 }
 
@@ -282,28 +332,49 @@ h4 {
         padding: 0;
         overflow-x: hidden;
     }
+    .landing-image img {
+        margin-top: 7%;
+    }
+    .text h1 {
+        font-size: 2.52em;
+    }
+    .text p {
+        width: 100%;
+    }
     .blog {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        cursor: pointer;
+        margin-top: 3%;
+        --gap: 35px;
+        --num-cols: 2;
+        box-sizing: border-box;
+        padding: var(--gap);
+        gap: var(--gap);
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        margin-left: 4%;
     }
     .blog-image img {
-        width: 730px;
+        width: 320px;
     }
     .recipe {
-        display: flex;
-        flex-direction: column;
-    }
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        display: grid;
+        margin-top: 3%;
+        --gap: 35px;
+        --num-cols: 2;
+        box-sizing: border-box;
+        padding: var(--gap);
+        gap: var(--gap);
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        margin-left: 4%;
     }
     .menu {
-        display: flex;
-        justify-content: space-between;
+        padding: 20px;
+    }
+    .links {
+        gap: 4em;
+    }
+    .menu {
         align-content: center;
-        font-weight: bolder;
-        align-content: center;
-        padding: 20px 0px 0px 0px;
+        padding: 20px;
     }
 }

@@ -326,6 +326,18 @@
      .links {
          gap: 3em;
      }
+     .blogpage-container-two {
+         display: grid;
+         cursor: pointer;
+         margin-top: 3%;
+         --gap: 20px;
+         --num-cols: 2;
+         box-sizing: border-box;
+         padding: var(--gap);
+         gap: var(--gap);
+         grid-template-columns: repeat(var(--num-cols), 1fr);
+         width: 80%;
+     }
  }
  
  @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -384,6 +396,27 @@
      .menu {
          align-content: center;
          padding: 20px;
+     }
+     .blogpage-container-two {
+         display: grid;
+         cursor: pointer;
+         margin-top: 3%;
+         --gap: 15px;
+         --num-cols: 2;
+         box-sizing: border-box;
+         padding: var(--gap);
+         gap: var(--gap);
+         grid-template-columns: repeat(var(--num-cols), 1fr);
+         width: 80%;
+     }
+     .d-v {
+         width: 245px;
+     }
+     .blogp-text {
+         width: 230px;
+     }
+     .blogp-image img {
+         width: 240px;
      }
  }
  

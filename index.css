@@ -27,6 +27,8 @@ nav ul {
     margin-right: 10px;
     font-family: 'Inconsolata', monospace;
     margin-left: 20px;
+    font-weight: bold;
+
 }
 
 nav ul li {
@@ -309,7 +311,6 @@ ul {
     font-size: 15px;
 }
 
-
 .recipes-container {
     display: flex;
 }
@@ -359,31 +360,7 @@ ul {
     margin-top: 1em;
     font-size: 17px;
 }
-/*=======================================================ABOUT PAGE==========================================================*/
-header h1{
-    text-align: center;
-    margin-top: 5%;
-    font-family: 'Inconsolata', monospace;
 
-}
-.about{
-    display: flex;
-    margin:50px 50px;
-}
-.image {
-    width:300px;
-    border-radius: 15px;
-}
-.about-text{
-    align-self: center;
-    margin-left: 5%;
-    font-size: 17px;
-    line-height: 2;
-    text-align: justify;
-}
-.about-text p{
-    margin-top: 2%;
-}
 
 /*=======================================================MEDIAQUERIES==========================================================*/
 

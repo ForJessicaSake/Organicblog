@@ -1,0 +1,125 @@
+/*=======================================================NAV PAGE==========================================================*/
+
+nav {
+    height: 60px;
+    width: 100%;
+    align-self: center;
+}
+
+label.logo {
+    font-size: 20px;
+    padding: 0px 75px;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    line-height:90px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 10px;
+    font-family: 'Inconsolata', monospace;
+    margin-left: 20px;   
+     font-weight: bold;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.active,
+a:hover {
+    background: #73bd41;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}/*=======================================================ABOUT PAGE==========================================================*/
+header h1{
+    text-align: center;
+    margin-top: 7%;
+    font-family: 'Inconsolata', monospace;
+
+}
+.about{
+    display: flex;
+    margin:50px 50px;
+}
+.image {
+    width:300px;
+    border-radius: 15px;
+}
+.about-text{
+    align-self: center;
+    margin-left: 5%;
+    font-size: 17px;
+    line-height: 2;
+    text-align: justify;
+}
+.about-text p{
+    margin-top: 2%;
+}
+
+/*=======================================================FOOTER==========================================================*/
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin: 6% 2% 5% 2%;
+    cursor: pointer;
+}
+
+.footer-container div {
+    margin-top: 3%;
+}
+
+.footer-container ul {
+    list-style: none;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+
+.footer-container h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 15%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
+
+.socials a i {
+    width: 40px;
+}

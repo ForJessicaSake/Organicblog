@@ -85,7 +85,7 @@ header h1{
     align-self: center;
     margin-left: 5%;
     font-size: 17px;
-    line-height: 2;
+    line-height: 1.7;
     text-align: justify;
     width: 600px;
 }
@@ -154,7 +154,7 @@ h4 {
     }
     nav ul {
         position: fixed;
-        width: 100%;
+        width: 58%;
         height: 100vh;
         top: 80px;
         left: -100%;
@@ -189,18 +189,8 @@ h4 {
          align-content: center;
          margin-top: 2em
      }
-     .aboutsubtitle {
-         margin-top: 1em;
-         text-align: center;
-     }
-     .abouttext {
-         width: 675px;
-         margin-top: 1em;
-         margin-left: 1em;
-     }
-     .about .image {
-       align-content: center;    
- }
+  
+
 
 }
 @media only screen and (max-width: 768px) and (min-width: 481px) {    
@@ -220,8 +210,8 @@ h4 {
     }
     nav ul {
         position: fixed;
-        width: 100%;
-        height: 100vh;
+        width: 60%;
+        height: 50vh;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -246,9 +236,11 @@ h4 {
     }
     .about-content {
         margin-left: 3%;
-        height: calc(100vh-80px);
+        height: calc(50vh-80px);
     }
-}@media only screen and (max-width: 1024px) and (min-width: 769px) {
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
     html,
     body {
         width: 100%;
@@ -265,3 +257,4 @@ h4 {
     nav ul li a {
         font-size: 16px;
     }
+}

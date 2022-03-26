@@ -137,7 +137,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid black;
-    margin: 6% 2% 5% 2%;
+    margin: 6% 2% 5% 0%;
     cursor: pointer;
 }
 .footer-container div {
@@ -169,7 +169,7 @@ h4 {
 }
 
 .socials a i {
-    width: 40px;
+    width: 30px;
 }/*=======================================================MEDIAQUERIES==========================================================*/
 @media only screen and (max-width: 480px) and (min-width: 320px) {
  body {

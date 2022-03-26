@@ -1,4 +1,4 @@
-// /*============================== SCROLL REVEAL ANIMATION =================================*/
+/*============================== SCROLL REVEAL ANIMATION =================================*/
 // const sr = ScrollReveal({
 //     origin: 'top',
 //     distance: '60px',
@@ -9,3 +9,4 @@
 
 // sr.reveal('.text,  .latest-blog, .blog-text, .blogp-text, .recipes-text', {delay: 800});
 // sr.reveal('.about', { interval: 300 });
+// sr.reveal('', { interval: 300 });

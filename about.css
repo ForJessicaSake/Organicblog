@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -45,6 +45,7 @@ a.active,
 a:hover {
     background: #73bd41;
     transition: .5s;
+    color: black;
 }
 
 .checkbtn {

@@ -35,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -44,8 +44,9 @@ nav ul li a {
 
 a.active,
 a:hover {
-    background: #73bd41;
+    background: black;
     transition: .5s;
+    color: black;
 }
 
 .checkbtn {
@@ -99,7 +100,7 @@ a:hover {
 }
 
 .recipes-image img {
-    width: 250px;
+    width: 230px;
     border-radius: 10px;
 }
 
@@ -112,13 +113,13 @@ a:hover {
 
 .recipes-container-two .d-v {
     display: flex;
-        width: 245px;
+        width: 225px;
         justify-content: space-between;
     margin-top: 0.5em;
 }
 
 .recipes-text {
-    width: 280px;
+    width: 240px;
 }
 
 .recipes-text h2 {
@@ -128,17 +129,18 @@ a:hover {
 .recipes-content {
         height: calc(100vh-80px);
     }
+
 /*=======================================================FOOTER==========================================================*/
 
 
-
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid black;
     margin: 6% 2% 5% 2%;
     cursor: pointer;
 }
+
 .footer-container div {
     margin-top: 3%;
 }
@@ -150,7 +152,7 @@ a:hover {
 }
 
 .footer-container h1 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Kaushan Script', cursive;
     font-weight: normal;
     font-size: 25px;
     margin-top: 15%;
@@ -169,6 +171,8 @@ h4 {
 
 .socials a i {
     width: 40px;
+}
+
 }/*=======================================================MEDIAQUERIES==========================================================*/
 @media only screen and (max-width: 480px) and (min-width: 320px) {
  body {

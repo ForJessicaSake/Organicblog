@@ -7,4 +7,4 @@ const sr = ScrollReveal({
     // reset: true
 });
 
-sr.reveal('.about', { interval: 300 });
+sr.reveal('', { interval: 300 });

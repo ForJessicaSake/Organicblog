@@ -18,7 +18,7 @@ label.logo {
     font-size: 20px;
     padding: 0px 75px;
     font-weight: bold;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Inconsolata', monospace;
     line-height: 60px;
 }
 
@@ -282,16 +282,11 @@ ul {
     transition-delay: 0.003s;
 }
 
-.blogpage-container-two .d-v {
-    display: flex;
-    gap: 6.7em;
-    margin-top: 0.5em;
-}
 
 .blogp-text {
     width: 280px;
 }
-.d-v {
+.blogpage-container-two .d-v {
     display: flex;
     width: 245px;
     justify-content: space-between;
@@ -354,10 +349,7 @@ ul {
         height: calc(100vh-80px);
         margin-left: 3%;
     }
-    .recipes-content {
-        height: calc(100vh-80px);
-        margin-left: 5%;
-    }
+    
     .landing-image img {
         margin-top: 7%;
     }
@@ -486,9 +478,7 @@ ul {
         height: calc(100vh-80px);
         margin-left: 5%;
     }
-    .recipes-content {
-        height: calc(100vh-80px);
-        margin-left: 5%;
+    
     }
     .landing-image img {
         margin-top: 7%;
@@ -616,7 +606,7 @@ ul {
     }    
     .blog-text{   
          width: 350px;
-} .d-v {
+} .first .d-v {
      width: 340px;
     margin-top: 0.5em;    
 }

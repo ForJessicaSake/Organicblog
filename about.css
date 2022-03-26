@@ -1,3 +1,8 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 /*=======================================================NAV PAGE==========================================================*/
 
 nav {
@@ -10,7 +15,7 @@ label.logo {
     font-size: 20px;
     padding: 0px 75px;
     font-weight: bold;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Inconsolata', monospace;
     line-height:90px;
 }
 
@@ -63,18 +68,25 @@ header h1{
 }
 .about{
     display: flex;
-    margin:50px 50px;
+    flex-direction: column;
 }
-.image {
-    width:300px;
+.about-image{
+    margin-top: 3%;
+    width: 250px;
+    align-self: center;
+}
+.about-image img {
+    width:250px;
     border-radius: 15px;
 }
-.about-text{
+.about-text{  
+    margin-top: 3%;
     align-self: center;
     margin-left: 5%;
     font-size: 17px;
     line-height: 2;
     text-align: justify;
+    width: 600px;
 }
 .about-text p{
     margin-top: 2%;
@@ -87,7 +99,7 @@ header h1{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid black;
-    margin: 6% 2% 5% 2%;
+    margin: 6% 2% 5% 4%;
     cursor: pointer;
 }
 
@@ -102,7 +114,7 @@ header h1{
 }
 
 .footer-container h1 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Inconsolata', monospace;
     font-weight: normal;
     font-size: 25px;
     margin-top: 15%;
@@ -122,3 +134,132 @@ h4 {
 .socials a i {
     width: 40px;
 }
+/*=======================================================MEDIAQUERIES==========================================================*/
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    html,
+    body {
+        width: 140%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }   label.logo {
+        font-size: 30px;
+        padding-left: 50px;   
+        font-family: 'Inconsolata', monospace;
+    }
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        background-color: rgb(60, 151, 61);
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        color: black;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: white;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+  
+    .about-content {
+        height: calc(100vh-80px);
+        margin-left: 4%;
+    }
+    .about {
+         display: flex;
+         flex-direction: column;
+         align-content: center;
+         margin-top: 2em
+     }
+     .aboutsubtitle {
+         margin-top: 1em;
+         text-align: center;
+     }
+     .abouttext {
+         width: 675px;
+         margin-top: 1em;
+         margin-left: 1em;
+     }
+     .about .image {
+       align-content: center;    
+ }
+
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {    
+     body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }   label.logo {
+        font-size: 30px;
+        padding-left: 50px;   
+        font-family: 'Inconsolata', monospace;
+    }
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        background-color: rgb(60, 151, 61);
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        color: black;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: white;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    .about-content {
+        margin-left: 3%;
+        height: calc(100vh-80px);
+    }
+}@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;   
+        font-family: 'Inconsolata', monospace;
+
+    }
+    nav ul li a {
+        font-size: 16px;
+    }

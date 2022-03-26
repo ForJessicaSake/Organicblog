@@ -7,5 +7,4 @@ const sr = ScrollReveal({
     // reset: true
 });
 
-sr.reveal('.text,  .latest-blog, .blog-text, .blogp-text, .recipes-text', {delay: 800});
 sr.reveal('.about', { interval: 300 });

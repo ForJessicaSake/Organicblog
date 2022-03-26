@@ -100,7 +100,7 @@ a:hover {
 }
 
 .recipes-image img {
-    width: 250px;
+    width: 230px;
     border-radius: 10px;
 }
 
@@ -113,13 +113,13 @@ a:hover {
 
 .recipes-container-two .d-v {
     display: flex;
-        width: 245px;
+        width: 225px;
         justify-content: space-between;
     margin-top: 0.5em;
 }
 
 .recipes-text {
-    width: 280px;
+    width: 240px;
 }
 
 .recipes-text h2 {

@@ -434,28 +434,7 @@ ul {
     .blogp-image img {
         width: 240px;margin-top: 2%;
     }
-    .recipes-container-two {
-        display: grid;
-        cursor: pointer;
-        margin-top: 3%;
-        --gap: 10px;
-        --num-cols: 2;
-        box-sizing: border-box;
-        padding: var(--gap);
-        gap: var(--gap);
-        grid-template-columns: repeat(var(--num-cols), 1fr);
-        width: 80%;
-    } .recipes-text {
-        width: 250px;
-    }   
-     .recipes-text h2 {
-         font-size: 16.5px;}
-
-    .recipes-image img {
-        width: 240px;
-        margin-top: 2%;
-    }
-}
+  
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
     html,
@@ -585,15 +564,8 @@ ul {
         width: 240px;      
         margin-top: 2%;
 
-    }
-     .recipes-text {
-        width: 235px;
-    }
-    .recipes-image img {
-        width: 240px;
-        margin-top: 2%;
-
-    }
+    } 
+    
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -689,25 +661,4 @@ ul {
     .blogp-image img {
         width: 300px;
     } 
-      .recipes-container-two {
-        display: grid;
-        cursor: pointer;
-        margin-top: 3%;
-        --gap: 5px;
-        --num-cols: 2;
-        box-sizing: border-box;
-        padding: var(--gap);
-        gap: var(--gap);
-        grid-template-columns: repeat(var(--num-cols), 1fr);
-        width: 80%;
-    }
-   
-    .recipes-text {
-        width: 300px;
-    }
-    .recipes-image img {
-        width: 300px;
-    }
 }
-
-

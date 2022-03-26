@@ -61,7 +61,7 @@ a:hover {
 .recipes-page {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 6%;
     font-size: 15px;
 }
 
@@ -155,4 +155,71 @@ h4 {
 
 .socials a i {
     width: 40px;
+}/*=======================================================MEDIAQUERIES==========================================================*/
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+.recipes-container-two {
+        display: grid;
+        cursor: pointer;
+        margin-top: 3%;
+        --gap: 10px;
+        --num-cols: 2;
+        box-sizing: border-box;
+        padding: var(--gap);
+        gap: var(--gap);
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        width: 80%;
+    } .recipes-text {
+        width: 250px;
+    }   
+     .recipes-text h2 {
+         font-size: 16.5px;}
+
+    .recipes-image img {
+        width: 240px;
+        margin-top: 2%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {    
+    .recipes-container-two {
+        display: grid;
+        cursor: pointer;
+        margin-top: 3%;
+        --gap: 15px;
+        --num-cols: 2;
+        box-sizing: border-box;
+        padding: var(--gap);
+        gap: var(--gap);
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        width: 80%;
+    }
+     .recipes-text {
+        width: 235px;
+    }
+    .recipes-image img {
+        width: 240px;
+        margin-top: 2%;
+
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+.recipes-container-two {
+        display: grid;
+        cursor: pointer;
+        margin-top: 3%;
+        --gap: 5px;
+        --num-cols: 2;
+        box-sizing: border-box;
+        padding: var(--gap);
+        gap: var(--gap);
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        width: 80%;
+    }
+   
+    .recipes-text {
+        width: 300px;
+    }
+    .recipes-image img {
+        width: 300px;
+    }
 }

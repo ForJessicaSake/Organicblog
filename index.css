@@ -20,6 +20,7 @@ label.logo {
     font-weight: bold;
     font-family: 'Inconsolata', monospace;
     line-height: 60px;
+
 }
 
 nav ul {
@@ -34,6 +35,7 @@ nav ul li {
     display: inline-block;
     line-height: 60px;
     margin: 0 5px;
+
 }
 
 nav ul li a {
@@ -53,7 +55,7 @@ a:hover {
 
 .checkbtn {
     font-size: 30px;
-    color: white;
+    color: black;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -427,7 +429,7 @@ ul {
     .blogp-image img {
         width: 240px;margin-top: 2%;
     }
-  
+}
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
     html,
@@ -511,7 +513,7 @@ ul {
     }    
     .blog-text{   
          width: 250px;
-}
+        }
     .recipe {
         display: grid;
         margin-top: 3%;
@@ -554,9 +556,7 @@ ul {
     .blogp-image img {
         width: 240px;      
         margin-top: 2%;
-
-    } 
-    
+    }    
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {

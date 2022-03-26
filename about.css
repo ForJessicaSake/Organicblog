@@ -165,7 +165,7 @@ h4 {
         display: block;
         margin: 50px 0;
         line-height: 30px;
-        color: black;
+
     }
     nav ul li a {
         font-size: 20px;
@@ -209,7 +209,8 @@ h4 {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
-    }   label.logo {
+    }   
+    label.logo {
         font-size: 30px;
         padding-left: 50px;   
         font-family: 'Inconsolata', monospace;

@@ -173,9 +173,12 @@ h4 {
     width: 40px;
 }
 
-}/*=======================================================MEDIAQUERIES==========================================================*/
+
+/*=======================================================MEDIAQUERIES==========================================================*/
+
 @media only screen and (max-width: 480px) and (min-width: 320px) {
- body {
+    html,
+    body {
         width: 140%;
         margin: 0;
         padding: 0;
@@ -209,48 +212,51 @@ h4 {
     a:hover,
     a.active {
         background: none;
-        color: white;
+        color: black;
     }
     #check:checked~ul {
         left: 0;
     }
     .recipes-content {
-        margin-left: 3%;
-        height: calc(100vh-80px);
+        height: calc(100vh-80px);       
+         margin-left: 3%;
+
     }
+   
+    
     .recipes-container-two {
         display: grid;
         cursor: pointer;
         margin-top: 3%;
-        --gap: 10px;
+        --gap: 5px;
         --num-cols: 2;
         box-sizing: border-box;
         padding: var(--gap);
         gap: var(--gap);
         grid-template-columns: repeat(var(--num-cols), 1fr);
         width: 80%;
-    } 
+    }     
+    
     .recipes-text {
-        width: 230px;
+        width: 250px;
     }   
      .recipes-text h2 {
          font-size: 16.5px;}
 
     .recipes-image img {
-        width: 200px;
+        width: 240px;
         margin-top: 2%;
     }
-      .last .d-v {
-        width: 203px;
-    }
 }
-@media only screen and (max-width: 768px) and (min-width: 481px) {    
-     body {
-        width: 140%;
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    html,
+    body {
+        width: 100%;
         margin: 0;
         padding: 0;
         overflow-x: hidden;
-    }   label.logo {
+    }
+    label.logo {
         font-size: 30px;
         padding-left: 50px;   
         font-family: 'Inconsolata', monospace;
@@ -264,8 +270,10 @@ h4 {
         height: 100vh;
         top: 80px;
         left: -100%;
+        transition: all .5s;
         text-align: center;
         background-color: rgb(60, 151, 61);
+
     }
     nav ul li {
         display: block;
@@ -285,14 +293,16 @@ h4 {
         left: 0;
     }
     .recipes-content {
-        margin-left: 3%;
         height: calc(100vh-80px);
-    }
+        margin-left: 5%;
+
+    } 
+
     .recipes-container-two {
         display: grid;
         cursor: pointer;
         margin-top: 3%;
-        --gap: 20px;
+        --gap: 15px;
         --num-cols: 2;
         box-sizing: border-box;
         padding: var(--gap);
@@ -300,24 +310,20 @@ h4 {
         grid-template-columns: repeat(var(--num-cols), 1fr);
         width: 80%;
     }
-     .recipes-text {
-        width: 330px;
-        font-size: 55px;
-
+    .first .d-v {
+        width: 230px;
     }
-    .recipes-text h2{      
-        font-size: 28px;
-}
+    .blogp-text {
+        width: 235px;
+    }
     .recipes-image img {
-        width: 340px;
+        width: 230px;      
         margin-top: 2%;
 
-    }  
-      .last .d-v {
-        width: 330px;
-        font-size: 18px;
-    }
+    } 
+    
 }
+
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
  html,
@@ -359,8 +365,9 @@ h4 {
     }
      .recipes-text h2{      
         font-size: 28px;
-}
-      .last .d-v {
+
+     }
+    .last .d-v {
         width: 320px;
         font-size: 18px;
     }

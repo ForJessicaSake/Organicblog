@@ -27,7 +27,6 @@ nav ul {
     margin-right: 10px;
     font-family: 'Inconsolata', monospace;
     margin-left: 20px;
-    font-weight: bold;
 
 }
 
@@ -300,63 +299,6 @@ ul {
 }
 
 .blogp-text h2 {
-    margin-top: 1em;
-    font-size: 17px;
-}
-/*=======================================================RECIPES PAGE==========================================================*/
-.recipes-page {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-top: 4%;
-    font-size: 15px;
-}
-
-.recipes-container {
-    display: flex;
-}
-
-.recipes-container-one {
-    width: 20%;
-    margin-left: 2%;
-    line-height: 3.2;
-    cursor: pointer;
-}
-.recipes-container-two {
-    display: grid;
-    cursor: pointer;
-    margin-top: 3%;
-    --gap: 30px;
-    --num-cols: 3;
-    box-sizing: border-box;
-    padding: var(--gap);
-    gap: var(--gap);
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    width: 80%;
-}
-
-.recipes-image img {
-    width: 250px;
-    border-radius: 10px;
-}
-
-.recipes img:hover {
-    transform: scale(0.9);
-    scroll-behavior: smooth;
-    transition: 3s;
-    transition-delay: 0.003s;
-}
-
-.recipes-container-two .d-v {
-    display: flex;
-    gap: 6.7em;
-    margin-top: 0.5em;
-}
-
-.recipes-text {
-    width: 280px;
-}
-
-.recipes-text h2 {
     margin-top: 1em;
     font-size: 17px;
 }

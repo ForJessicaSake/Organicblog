@@ -46,8 +46,8 @@ nav ul li a {
     text-decoration: none;
 }
 
-a.active,
-a:hover {
+ nav a.active,
+ nav a:hover {
     background: #73bd41;
     transition: .5s;
     color: black;
@@ -66,6 +66,7 @@ a:hover {
 #check {
     display: none;
 }
+/*=======================================================MAIN==========================================================*/
 
 main {
     display: flex;
@@ -83,6 +84,7 @@ main {
 
 .landing-image img {
     width: 350px;
+    border-radius: 10px;
 }
 
 .text h1 {
@@ -155,15 +157,17 @@ main {
 }
 
 .blog h2 {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .blog-text p {
     margin-top: 0.6em;
+    font-size: 15.6px;
+
 }
 
 .blog-button {
-    margin-top: 1.5em;
+    margin-top: 2em;
     width: 170px;
     padding: 9px;
     color: white;
@@ -254,6 +258,15 @@ h4 {
     margin-left: 2%;
     line-height: 3.2;
     cursor: pointer;
+}
+.blogpage-container-one a{ 
+    text-decoration: none;
+    color:black;
+    border-bottom: 0.2px solid #bec0bb;
+}
+.blogpage-container-one a:hover{ 
+    background-color: none;
+    color:white;
 }
 
 ul {

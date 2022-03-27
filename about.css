@@ -69,20 +69,18 @@ header h1{
 }
 .about{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 5%;
 }
 .about-image{
     margin-top: 4%;
-    width: 250px;
-    align-self: center;
+    
 }
 .about-image img {
-    width:250px;
     border-radius: 15px;
 }
 .about-text{  
     margin-top: 4%;
-    align-self: center;
     margin-left: 5%;
     font-size: 17px;
     line-height: 1.7;
@@ -101,7 +99,7 @@ header h1{
     justify-content: space-between;
     border-top: 1px solid black;
     cursor: pointer;
-    margin: 6% 2% 2% 2%;
+    margin: 6% 2% 3% 2%;
 }
 
 .footer-container div {
@@ -189,8 +187,23 @@ h4 {
          display: flex;
          flex-direction: column;
          align-content: center;
-         margin-top: 2em
-     }
+         margin-top: 4%;
+    }  
+.about-image{
+     align-self: center;
+}
+.about-image img {
+    width: 280px;
+    border-radius: 15px;
+}
+.about-text{  
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+    width: 550px;
+}
   
 
 
@@ -201,6 +214,7 @@ h4 {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+        height: 100vh;
     }   
     label.logo {
         font-size: 30px;
@@ -242,6 +256,28 @@ h4 {
         margin-left: 3%;
         height: calc(50vh-80px);
     }
+        .about {
+         display: flex;
+         flex-direction: column;
+         align-content: center;
+         margin-top: 4%;
+    }  
+.about-image{
+     align-self: center;
+}
+.about-image img {
+    width: 280px;
+    border-radius: 15px;
+}
+.about-text{  
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+    width: 550px;
+}
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -251,6 +287,7 @@ h4 {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+        height: 100vh;
     }
     label.logo {
         font-size: 30px;
@@ -261,4 +298,25 @@ h4 {
     nav ul li a {
         font-size: 16px;
     }
+        .about {
+         display: flex;
+         flex-direction: column;
+         align-content: center;
+         margin-top: 4%;
+    }  
+.about-image{
+     align-self: center;
+}
+.about-image img {
+    width: 300px;
+    border-radius: 15px;
+}
+.about-text{  
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+    width: 800px;
+}
 }

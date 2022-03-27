@@ -72,7 +72,7 @@ header h1{
     flex-direction: column;
 }
 .about-image{
-    margin-top: 5%;
+    margin-top: 4%;
     width: 250px;
     align-self: center;
 }
@@ -81,7 +81,7 @@ header h1{
     border-radius: 15px;
 }
 .about-text{  
-    margin-top: 10%;
+    margin-top: 4%;
     align-self: center;
     margin-left: 5%;
     font-size: 17px;
@@ -100,13 +100,12 @@ header h1{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid black;
-    margin: 12% 2% 2% 2%;
     cursor: pointer;
-    height: 40vh;
+    margin: 6% 2% 2% 2%;
 }
 
 .footer-container div {
-    margin-top: 8%;
+    margin-top: 4%;
 }
 
 .footer-container ul {

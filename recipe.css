@@ -199,6 +199,8 @@ h4 {
         left: -100%;
         text-align: center;
         background-color: rgb(60, 151, 61);
+        transition: all .5s;
+
     }
     nav ul li {
         display: block;
@@ -273,6 +275,8 @@ h4 {
         transition: all .5s;
         text-align: center;
         background-color: rgb(60, 151, 61);
+        transition: all .5s;
+
 
     }
     nav ul li {

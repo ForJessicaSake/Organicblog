@@ -70,7 +70,6 @@ nav ul li a {
 
 main {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     margin: 5%;
@@ -99,6 +98,8 @@ main {
     line-height: 1.4;
     margin-top: 6%;
     font-family: 'Times New Roman', Times, serif;
+    opacity: 0.9;
+
 }
 
 .landingpage-button {
@@ -142,6 +143,7 @@ main {
     padding: var(--gap);
     gap: var(--gap);
     grid-template-columns: repeat(var(--num-cols), 1fr);
+    margin-left: 3%;
 }
 
 .d-v {
@@ -187,7 +189,8 @@ main {
 
 .recipe {
     display: grid;
-    cursor: pointer;
+    cursor: pointer;     
+    margin-left: 3%;
     margin-top: 3%;
     --gap: 30px;
     --num-cols: 4;
@@ -324,13 +327,16 @@ ul {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
-    }   label.logo {
+    } 
+    
+    label.logo {
         font-size: 30px;
-        padding-left: 50px;   
+        padding-left: 30px;   
         font-family: 'Inconsolata', monospace;
     }
     .checkbtn {
         display: block;
+
     }
     nav ul {
         position: fixed;
@@ -367,21 +373,26 @@ ul {
         height: calc(100vh-80px);
         margin-left: 3%;
     }
-    
-    .landing-image img {
-        margin-top: 7%;
+     
+  .homepage{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .text {
-        width: 60%;
-        margin-top: 2%;
-        line-height: 1.3;
+    .homepage .text{
+        width: 100%;
     }
+
+     .landing-image img {
+        margin-top: 10%;
+        width: 100%;  
+     }
     .text h1 {
         font-size: 1.8em;
     }
     .text p {
         width: 100%;
-        font-size: 1em;
+        font-size: 1.12em;
     }
     .blog {
         display: grid;
@@ -494,19 +505,32 @@ ul {
     .content {
         height: calc(100vh-80px);
     }
+    .homepage{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homepage .text{
+        margin-left: 5%;
+        width: 100%;
+    }
+
     .blog-content {
         height: calc(50vh-80px);
         margin-left: 5%;
     }
     
     .landing-image img {
-        margin-top: 7%;
+        margin-top: 10%;
+        width: 100%;
     }
     .text h1 {
         font-size: 2.4em;
     }
-    .text p {
+    .text p { 
         width: 100%;
+        font-size: 1.25em;
+
     }
     .blog {
         display: grid;
@@ -604,7 +628,10 @@ ul {
         font-size: 2.52em;
     }
     .text p {
-        width: 100%;
+    width: 100%;
+    font-size: 1.1em;
+    opacity: 0.8;
+
     }
     .blog {
         display: grid;

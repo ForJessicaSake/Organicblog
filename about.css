@@ -81,11 +81,11 @@ header h1{
 }
 .about-text{  
     margin-top: 4%;
-    margin-left: 5%;
+    margin-left:10%;
     font-size: 17px;
     line-height: 1.7;
     text-align: justify;
-    width: 600px;
+    width: 800px;
 }
 .about-text p{
     margin-top: 2%;

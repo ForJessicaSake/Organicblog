@@ -347,6 +347,8 @@ ul {
         text-align: center;
         background-color: rgb(60, 151, 61);
         transition: all .5s;
+        z-index: 2;
+
 
     }
     nav ul li {

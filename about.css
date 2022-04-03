@@ -80,7 +80,7 @@ header h1{
 }
 .about-text{  
     margin-top: 4%;
-    margin-left:10%;
+    margin-left:8%;
     font-size: 17px;
     line-height: 1.7;
     text-align: justify;
@@ -159,6 +159,7 @@ h4 {
         text-align: center;
         background-color: rgb(60, 151, 61);
         transition: all .5s;
+        z-index: 2;
     }
     nav ul li {
         display: block;
